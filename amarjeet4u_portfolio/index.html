@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Amarjeet | Portfolio — Build, Break, Code, Learn, Repeat, Evolve" />
+  <title>Amarjeet | Portfolio</title>
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <!-- ===== Top Bar with Socials + Theme Toggle ===== -->
+  <header class="topbar">
+    <nav class="container navbar">
+      <a class="brand" href="#home">Amarjeet</a>
+
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">College Gallery</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="top-actions">
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/amarjeet-yadav-948494375/
+t" target="_blank" aria-label="LinkedIn">
+            <img src="assets/linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/amarjeet4u" target="_blank" aria-label="GitHub">
+            <img src="assets/github.png" alt="GitHub" />
+          </a>
+          <a href="https://leetcode.com/amarjeet4u" target="_blank" aria-label="LeetCode">
+            <img src="assets/leetcode.png" alt="LeetCode" />
+          </a>
+          <a href="https://www.hackerrank.com/amarjeet4u" target="_blank" aria-label="HackerRank">
+            <img src="assets/hackerrank.png" alt="HackerRank" />
+          </a>
+          <a href="https://www.instagram.com/ay_aenizo/" target="_blank" aria-label="Instagram">
+            <img src="assets/instagram.png" alt="Instagram" />
+          </a>
+          <a href="https://youtube.com/@ay_aenizo" target="_blank" aria-label="YouTube">
+            <img src="assets/youtube.png" alt="YouTube" />
+          </a>
+        </div>
+
+        <button id="themeToggle" class="btn ghost" aria-label="Toggle dark mode" title="Toggle theme">Toggle Theme
+          🌗</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <h1>Hi, I'm <span class="accent">Amarjeet</span> 🎐</h1>
+      <p id="typewriter" class="muted"></p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">See Projects</a>
+        <a class="btn outline" href="#contact">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-shapes" aria-hidden="true">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="center maxw">
+        I'm a BTech ENTC student who loves to <b>Build</b>, <b>Break</b>, <b>Code</b>, <b>Learn</b>, <b>Repeat</b>, and
+        <b>Evolve</b>.
+        I’m aiming at future‑ready tech roles across <b>AI/ML/DS</b>,<b>Software Development</b> ,<b>Web
+          Development</b>, and <b>Cybersecurity</b> —
+        while keeping my foundations strong in <b>Python</b>, <b>C/C++</b>, and <b>Java</b>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="grid cards">
+        <div class="card">
+          <h3>Python</h3>
+          <p class="muted">Libraries: NumPy, Pandas, Matplotlib, scikit‑learn, TensorFlow/PyTorch (basics)</p>
+        </div>
+        <div class="card">
+          <h3>Web Dev</h3>
+          <p class="muted">Learning MERN(S): Node.js, Express, React, MongoDB (+ SQL)</p>
+        </div>
+        <div class="card">
+          <h3>C / C++</h3>
+          <p class="muted">DSA, STL, competitive coding practice</p>
+        </div>
+        <div class="card">
+          <h3>Java</h3>
+          <p class="muted">Core Java, OOP, collections</p>
+        </div>
+        <div class="card">
+          <h3>Data Scientist</h3>
+          <p class="muted">EDA, feature engineering, model evaluation, notebooks</p>
+        </div>
+        <div class="card">
+          <h3>AI / ML / DS</h3>
+          <p class="muted">Supervised/unsupervised basics, NN fundamentals, MLOps curiosity</p>
+        </div>
+        <div class="card">
+          <h3>Cybersecurity</h3>
+          <p class="muted">Networking basics, Linux, OWASP Top‑10 awareness, CTFs</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="grid cards">
+        <div class="card">
+          <h3>This Website</h3>
+          <p class="muted">A responsive, animated portfolio with dark mode, timeline, and gallery.</p>
+          <a class="btn small link" href="https://github.com/amarjeet4u" target="_blank">More on GitHub →</a>
+        </div>
+        <div class="card">
+          <h3>None (for now)</h3>
+          <p class="muted">I'm curating my best work. Check my GitHub for ongoing updates.</p>
+          <a class="btn small link" href="https://github.com/amarjeet4u" target="_blank">Visit GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== College Gallery (Albums) ===== -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2 class="section-title">College Gallery</h2>
+      <p class="center muted maxw">Albums I keep updating — a glimpse into my life at college.</p>
+      <div class="grid albums">
+        <div class="album">
+          <div class="album-thumb"></div>
+          <div class="album-meta">
+            <h4>Freshers' Week</h4>
+            <p class="muted">Memories, friends, and firsts.</p>
+          </div>
+        </div>
+        <div class="album">
+          <div class="album-thumb"></div>
+          <div class="album-meta">
+            <h4>Lab Life</h4>
+            <p class="muted">Circuits, code, coffee.</p>
+          </div>
+        </div>
+        <div class="album">
+          <div class="album-thumb"></div>
+          <div class="album-meta">
+            <h4>Clubs & Events</h4>
+            <p class="muted">Meetups, talks, and hack nights.</p>
+          </div>
+        </div>
+      </div>
+      <div class="center">
+        <a class="btn outline" href="#contact">Want access? Ping me.</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Timeline (appears after 70% scroll) ===== -->
+  <section id="timeline" class="section timeline-section">
+    <div class="container">
+      <h2 class="section-title">My Journey</h2>
+      <p class="center muted maxw">Highlights in reverse order. More to be added as I grow.</p>
+
+      <ol class="timeline" id="timelineList" hidden>
+        <li class="tl-item">
+          <div class="tl-card">
+            <h4>Competitions Attended</h4>
+            <p class="muted">Hackathons, coding contests, and tech events — adding details soon.</p>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-card">
+            <h4>School Journey (APS)</h4>
+            <p class="muted">2013 → 2025 — foundations, friendships, and growth.</p>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-card">
+            <h4>Hackathons</h4>
+            <p class="muted">Participations across college & community — writeups incoming.</p>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-card">
+            <h4>Internships</h4>
+            <p class="muted">None yet (fresher). Open to opportunities.</p>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-card">
+            <h4>Projects Timeline</h4>
+            <p class="muted">5 major projects — currently working on them.</p>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-card">
+            <h4>College</h4>
+            <p class="muted">2025 → 2029 — AIT Pune, ENTC — building a future‑ready profile.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+<!-- ===== Contact ===== -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">💬 Contact Me</h2>
+    <div class="grid contact-grid">
+      <form action="https://formspree.io/f/mblayjwj" method="POST" class="card feedback-card">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="5" required></textarea>
+        </div>
+        <br>
+        <button type="submit" class="btn gradient">Send Message</button>
+      </form>
+
+      <div class="card feedback-card contact-info">
+        <h3>Prefer Email?</h3>
+        <p class="muted">amarjeetyadav0412@gmail.com</p>
+        <p class="muted">I reply faster on weekdays.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== Feature Comments (limit to 3/day) ===== -->
+  <section id="feedback" class="section">
+    <div class="container">
+      <h2 class="section-title">✨ Feature Comments</h2>
+
+      <form id="feedbackForm" class="card feedback-card">
+        <div class="grid two">
+          <div class="form-group">
+            <label for="featureName">Feature Name</label>
+            <input type="text" id="featureName" placeholder="e.g., Leon S. Kennedy" required />
+          </div>
+          <div class="form-group">
+            <label for="featureComment">Comment</label>
+            <input type="text" id="featureComment" placeholder="Your thoughts..." required />
+          </div>
+        </div>
+
+        <p class="muted small limit-note"><em>Limit: 3 feedback submissions per day</em></p>
+
+        <div class="row between">
+          <button type="submit" class="btn gradient">🚀 Submit</button>
+          <span id="remaining" class="muted small"></span>
+        </div>
+      </form>
+
+      <ul id="feedbackList" class="feedback-list"></ul>
+    </div>
+  </section>
+
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>Made with Love❤️ and Caffeine☕ — <b>Amarjeet</b></p>
+  </footer>
+</body>
+
+</html>
